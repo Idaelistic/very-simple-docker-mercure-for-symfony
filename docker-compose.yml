@@ -18,7 +18,7 @@ services:
       # - ./docker/db/data:/var/lib/postgresql/data:rw
   ###< doctrine/doctrine-bundle ###
 
-  ###> symfony/mercure-bundle ###
+  ###> symfony/mercure-bundle ####
   mercure:
     image: dunglas/mercure
     restart: unless-stopped
